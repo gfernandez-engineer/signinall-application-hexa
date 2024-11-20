@@ -11,7 +11,8 @@
 	<groupId>com.signinall</groupId>
 	<artifactId>signinall-application-hexa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>signinall-application-hexa</name>
+    <packaging>pom</packaging>
+    <name>signinall-application-hexa</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -20,7 +21,12 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
+    <modules>
+        <module>domain</module>
+		<module>application</module>
+        <module>infraestructure</module>
+    </modules>
+    <scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>
